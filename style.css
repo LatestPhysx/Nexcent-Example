@@ -1,0 +1,21 @@
+body {
+    height: 100vh;
+}
+@media all and (max-width : 992px){
+    .middle{
+        justify-content: center;
+    }
+}
+nav>div{
+    background-color: rgb(255, 255, 255,0.1);
+}
+@media all and (min-width : 992px){
+    .middle{
+        justify-content: end;
+    }
+}
+@media all and (max-width : 772px){
+    nav.navbar>div.offcanvas{
+        width: 50%;
+    }
+}
