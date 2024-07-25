@@ -38,3 +38,8 @@ body {
         padding-top: 56px;
     }
 }
+@media all and (max-width : 448px){
+    .four>.row>.container>.row>div{
+        margin: 10px;
+    }
+}
