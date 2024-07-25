@@ -1,21 +1,40 @@
+@font-face {
+    font-family: "Inter";
+    src: url(Fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
 body {
+    font-family: "Inter";
     height: 100vh;
+    padding-top: 69px;
+}
+.two{
+    width: 100%;
+    background-color: #F5F7FA;
+    color: black;
+}
+.two>.container>.row>.col>.two-para{
+    font-family:"Inter";
+    text-transform: capitalize;
+    font-size: 44.55px;
 }
 @media all and (max-width : 992px){
     .middle{
         justify-content: center;
     }
 }
-nav>div{
-    background-color: rgb(255, 255, 255,0.1);
-}
 @media all and (min-width : 992px){
     .middle{
         justify-content: end;
+    }
+    nav.navbar>div.offcanvas{
+
     }
 }
 @media all and (max-width : 772px){
     nav.navbar>div.offcanvas{
         width: 50%;
+    }
+    body{
+        padding-top: 56px;
     }
 }
