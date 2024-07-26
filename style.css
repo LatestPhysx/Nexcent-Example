@@ -17,6 +17,15 @@ body {
     text-transform: capitalize;
     font-size: 44.55px;
 }
+.card{
+    width: fit-content;
+    height:fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(10%);
+    z-index: 2;
+}
 @media all and (max-width : 992px){
     .middle{
         justify-content: center;
@@ -43,3 +52,14 @@ body {
         margin: 10px;
     }
 }
+@media all and (min-width : 300px) and (max-width : 579px){
+    .eight>.row>.col{
+        margin: 0px 0px 150px 0px;
+    }
+}
+@media all and (min-width : 579px) and (max-width : 859.5px){
+    .eight>.row>.eighty{
+        margin: 150px 0px 0px 0px;
+    }
+}
+
